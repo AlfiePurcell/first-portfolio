@@ -11,8 +11,3 @@
         document.body.classList.toggle("light-mode");
     })
 })();
-
-function getUserInput() {
-var NameAndEmail = document.getElementById("input-control").value;
-document.getElementById("demo").innerHTML = NameAndEmail+ " " + SubjectAndMessage
-}
